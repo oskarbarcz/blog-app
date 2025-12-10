@@ -2,7 +2,7 @@ name: "release"
 
 on:
   push:
-    branches: ["manin"]
+    branches: ["main"]
 jobs:
   tag:
     runs-on: "ubuntu-24.04"
